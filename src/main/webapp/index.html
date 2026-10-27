@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Marks Calculator</title>
+</head>
+<body>
+    <h2>Student Marks Calculator</h2>
+
+    <form action="MarksServlet" method="post">
+        Student Name:
+        <input type="text" name="studentName" required>
+        <br><br>
+
+        Subject 1 Marks:
+        <input type="number" name="mark1"
+               min="0" max="100" required>
+        <br><br>
+
+        Subject 2 Marks:
+        <input type="number" name="mark2"
+               min="0" max="100" required>
+        <br><br>
+
+        Subject 3 Marks:
+        <input type="number" name="mark3"
+               min="0" max="100" required>
+        <br><br>
+
+        <button type="submit">Calculate Result</button>
+    </form>
+</body>
+</html>
